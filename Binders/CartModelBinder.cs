@@ -27,8 +27,10 @@ namespace SportsStore.WebUI.Infrastructure.Binders
                     controllerContext.HttpContext.Session[sessionKey] = cart;
                 }
             }
-            // return the cart
+            // return the cart object
             return cart;
             }
     }
 }
+
+//add a line for GitHub testing
